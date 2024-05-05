@@ -1,0 +1,22 @@
+.LoadMoreContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.product {
+  padding: 20px;
+  border: 1px solid #4e4e4e;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.product img {
+  max-width: 200px;
+  max-height: 250px;
+}
